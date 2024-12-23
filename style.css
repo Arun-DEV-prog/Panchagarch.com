@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+section{
+     background-color:black;
+     box-shadow: 0px 5px 4px rgba(0,0,0,0.8);
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+}
+section .logo{
+    font-size: 35px;
+    color: aqua;
+    cursor: pointer;
+}
+ .navber ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    margin-right: 30px;
+}
+.navber ul li{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navber ul li a{
+    color: #ddd;
+}
+
+main{
+    margin-top: 100px;
+    position: relative;
+}
+main h1{
+    text-align: center;
+}
+main .line{
+ margin-top: 10px;
+ color: blue;
+ background-color: blue;
+ border: 1px solid blue;
+}
+
+/* card-container */
+.card-container{
+    display: grid;
+     grid-template-columns: auto auto auto;
+       width: 100%;
+       gap: 10px;
+    
+   
+}
+.card-container .card{
+    border: 2px solid goldenrod;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+   text-align: center;
+}
+
+.card-container .card h2{
+  font-size: 40px;
+  margin-top: 5px;
+  color: brown;
+}
+.card-container .card p{
+    margin-top: 45px;
+}
+.card-container .card:hover{
+   
+   width: 455px;
+   transition: ease 0.3s;
+   
+   
+}
